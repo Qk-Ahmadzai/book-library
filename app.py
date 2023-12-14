@@ -184,28 +184,6 @@ def delete_book(book_id):
 
 @app.route('/')
 def home_page():
-
-  # new_book = Book()
-  # new_book.title = 'Python Programming and SQL'
-  # new_book.author = 'Mark Reed'
-  # new_book.genre = 'Programming'
-  # new_book.language = 'English'
-  # new_book.cover_image = '61jXSsH1M8L._SL1430_.jpg'
-  # new_book.user_id = 2
-
-  # db.session.add(new_book)
-  # db.session.commit()
-  # return jsonify({'message': 'Book created successfully', 'book': new_book.title})
-
-  # new_user = User()
-  # new_user.username = "qkahmadzai1"
-  # new_user.password = "kasdjs1d@332"
-  # new_user.email = "qkahmadzai1@gmail.com"
-
-  # db.session.add(new_user)
-  # db.session.commit()
-  # return jsonify({'message': 'User created successfully'})
-
   return render_template('home.html')
 
 
