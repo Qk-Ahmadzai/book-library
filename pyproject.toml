@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-book-library"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+readme = "README.md"
+packages = [{include = "repl_nix_book_library"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+flask-sqlalchemy = "^3.1.1"
+redberry = "^0.0.7.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
